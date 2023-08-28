@@ -1,30 +1,79 @@
 <!DOCTYPE html>
-<html lang='en'>
-	<head>
-		<meta charset='utf-8'/>
-		<meta name='viewport' content='width=device-width, initial-scale=1'/>
-		<title>whats ll up to now</title>
-		<link rel="stylesheet" href="https://use.typekit.net/zwl2xmq.css">
-		<link rel="icon" type="image/x-icon" href="https://freight.cargo.site/t/original/i/aec8ffbf014e5ec50cb8d60c58a9a38c1dd753387520c7b3798300480d3083f6/lliu-favi.ico">
-		<style>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>what now?</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href="styles.css"> -->
+        <!-- <script src="p5.min.js" async defer></script> -->
+        <!-- <script src="pant.js"></script> -->
+        <style>
             body {
-                background-color:black;
-                color:white;
-                font-size:50px;
-                margin:1em;
-                font-family:sans-serif;
-                letter-spacing: 1px;
+                background-color: rgb(140, 140, 140);
+                color: black;
             }
-		</style>
-	</head>
-	<body>
-		<section class="maintext">
-			<p>this season’s aspirations:</p>
-			<ul>
-				<li>the outdoors</li>
-				<li>printing</li>
-                <li>100 yrs of sol.</li>
-			</ul>
-		</section>
-	</body>
+            #pant-legend {
+                border:1px black solid;
+                visibility: hidden;
+            }
+            @media (min-width:1400px) {
+                #pant-legend {
+                    visibility: visible;
+                }
+            }
+        </style>
+    </head>
+    <!-- https://scoby.page/squares-for-brunch -->
+    <body>
+
+
+
+        <section id="pant-legend">
+            <img src="media/pants-front.png" alt="" usemap="#pants-front-index" width="600" height="800">
+            <img src="media/pants-back.png" alt="" usemap="#pants-back-index" width="600" height="800">
+            <map name="pants-front-index">
+                <area shape="rect" coords="148,170,210,219" target="_blank" href="https://d2w9rnfcy7mm78.cloudfront.net/23247940/original_e07398e5aca2109639ed0565b11a6ad7.png?1692591445?bc=0" alt="">
+                <area shape="rect" coords="148,243,210,308" target="_blank" href="https://d2w9rnfcy7mm78.cloudfront.net/23247942/original_a3972a2dbdb9bd86bb723a7e144efdbf.png?1692591445?bc=0" alt="">
+                <area shape="rect" coords="216,219,245,311" target="_blank" href="https://d2w9rnfcy7mm78.cloudfront.net/23247944/original_176c5fb36a7f7534546d89d2fdac2cf9.png?1692591445?bc=0" alt="">
+                <area shape="rect" coords="251,219,269,333" target="_blank" href="https://d2w9rnfcy7mm78.cloudfront.net/23247939/original_7eafb28c1e176fea23a2b7857a411a0f.png?1692591445?bc=0" alt="">
+                <area shape="poly" coords="234,492,280,492,264,652,220,652" target="_blank" href="https://d2w9rnfcy7mm78.cloudfront.net/23247941/original_defd5154253362dfdbbfdd9e22059665.png?1692591445?bc=0" alt="">
+                <area shape="poly" coords="340,199,430,171,441,264,349,288" target="_blank" href="https://d2w9rnfcy7mm78.cloudfront.net/23247941/original_defd5154253362dfdbbfdd9e22059665.png?1692591445?bc=0" alt="">
+                <area shape="poly" coords="402,407,438,449,366,447" target="_blank" href="https://d2w9rnfcy7mm78.cloudfront.net/23247945/original_88d8a820e3897d71c8b901049ea99f50.png?1692591446?bc=0" alt="">
+                <area shape="poly" coords="353,457,446,451,469,527,379,538" target="_blank" href="https://d2w9rnfcy7mm78.cloudfront.net/14633412/original_7dc6fefd7b15de0f94a8518ea2b212aa.jpg?1641768929?bc=0" alt="">
+            </map>
+            <map name="pants-back-index">
+                <area shape="rect" coords="140,199,184,311" target="_blank" href="https://d2w9rnfcy7mm78.cloudfront.net/23247941/original_defd5154253362dfdbbfdd9e22059665.png?1692591445?bc=0" alt="">
+                <area shape="rect" coords="206,346,268,398" target="_blank" href="https://d2w9rnfcy7mm78.cloudfront.net/23247940/original_e07398e5aca2109639ed0565b11a6ad7.png?1692591445?bc=0" alt="">
+                <area shape="rect" coords="173,452,265,496" target="_blank" href="https://d2w9rnfcy7mm78.cloudfront.net/23247944/original_176c5fb36a7f7534546d89d2fdac2cf9.png?1692591445?bc=0" alt="">
+                <area shape="poly" coords="195,609,269,609,251,740,182,746" target="_blank" href="https://d2w9rnfcy7mm78.cloudfront.net/23247941/original_defd5154253362dfdbbfdd9e22059665.png?1692591445?bc=0" alt="">
+                <area shape="poly" coords="308,524,341,524,373,715,337,715" target="_blank" href="https://d2w9rnfcy7mm78.cloudfront.net/23247941/original_defd5154253362dfdbbfdd9e22059665.png?1692591445?bc=0" alt="">
+                <area shape="rect" coords="376,501,448,587" target="_blank" href="https://d2w9rnfcy7mm78.cloudfront.net/14633412/original_7dc6fefd7b15de0f94a8518ea2b212aa.jpg?1641768929?bc=0" alt="">
+                <area shape="poly" coords="375,260,452,242,452,338,398,333" target="_blank" href="https://d2w9rnfcy7mm78.cloudfront.net/14633412/original_7dc6fefd7b15de0f94a8518ea2b212aa.jpg?1641768929?bc=0" alt="">
+            </map>
+        </section>
+        
+        
+        
+    </body>
 </html>
+
+
+<!-- 
+<section class="gallery">
+    <figure>
+        <img src="media/pants-front.png" alt="" usemap="#temp" width="500" height='600'>
+        <figcaption>Front</figcaption>
+    </figure>
+    <figure>
+        <img src="media/pants-back.png" alt="" usemap="#temp" width="500" height="600">
+        <figcaption>Back</figcaption>
+    </figure>
+</section>  -->
+<!-- 
+.gallery { display:grid; grid-template-columns: 1fr 1fr; margin: 0 auto;}
+            .gallery figure { border: 1px black solid;padding:1em;}
+            .gallery figure img {max-width:100%;border:1px black solid; background-color: black;}
+            .gallery figure figcaption {text-align: center;}
+            .gallery figure:hover {background-color: gray;} -->
